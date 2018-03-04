@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-  'pupil extra mixture ball smooth float taxi grocery until mention frozen high',
-  'https://rinkeby.infura.io/orDImgKRzwNrVCDrAk5Q'
+  'your metamask mnemonic',
+  'your infura ethereum key'
 );
 const web3 = new Web3(provider);
 
